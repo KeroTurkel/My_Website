@@ -1,0 +1,168 @@
+.text-skills {
+    width: 100%;
+    text-align: left;
+    
+}
+
+.text-skills p {
+    font-family: 'Kalam';
+    margin-top: 20px;
+}
+
+.text-skills h2 {
+  font-family: 'Roboto';
+  color: #483928; 
+ 
+}
+
+.skillBar-container{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.skill-bar {
+  background-color: #483928; 
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  
+}
+
+.fullBar{
+  background-color: #e8e3de;
+  padding: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: solid #483928 1px ;
+}
+
+.keyboardSkillContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.skill-card {
+  background-color: #e4dad3;
+  border-radius: 30px;
+  max-width: 500px; 
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  align-self: center;
+  padding: 30px;
+  border: #483928 1px solid;
+  height: auto; 
+}
+
+@media screen and (max-width: 768px) {
+  
+  .keyboardSkillContainer {
+    flex-direction: column; 
+    width: 100%;
+  }
+  .text-skills h2{
+    font-size: 25px;
+  }
+
+  .text-skills p{
+    font-size: 18px;
+  }
+  
+
+  .skill-card{
+    border-radius: 0;
+    min-width: 400px;
+    width: 100%;
+    padding: 25px;
+  }
+
+  .skill-bar {
+    font-size: 18px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    
+  }
+  
+  .fullBar{
+    font-size: 18px;
+    padding: 2px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid #483928 1px ;
+  }
+
+  .skillBar-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .accordion-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .keyboardSkillContainer{
+    margin-bottom: 10%;
+  }
+  
+  .skill-card {
+    width: calc(48% - 5px);
+    margin: 10px;
+    cursor: pointer;
+    color: #483928;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 500px;
+    
+  }
+
+  .skill-bar {
+    font-size: 18px;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    
+  }
+  
+  .fullBar{
+    font-size: 18px;
+    padding: 2px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid #483928 1px ;
+  }
+
+  .text-skills p {
+    font-family: 'Kalam';
+    margin-top: 20px;
+  }
+  
+  }
+
+
+
+  
+  
+  
+  
+  
